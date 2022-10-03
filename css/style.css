@@ -16,23 +16,47 @@ div.t {
      font-size: 150%;
 }
 
-div.topnav {
+.topnav {
      background-color: #000000;
      verflow: hidden;
      opacity: 0.6; 
 }
 
-div.topnav a {
+.topnav a {
      text-decoration: none;
      text-align: center;
      position: relative;
 }
 
-div.topnav a:hover::after {
+.topnav a:hover::after {
      content: "";
      position: absolute;
      left: 25%;
      right: 25%;
      bottom: 0;
      border: 1px solid white;
+}
+
+.hoveranimation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hoveranimation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoveranimation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
