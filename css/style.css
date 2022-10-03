@@ -30,8 +30,8 @@ div.t {
 .hoveranimation {
      display: inline-block;
      position: relative;
-     color: #0087ca;
-     text-decoration: none;
+     color: #inherit;
+     
 }
 
 .hoveranimation:after {
