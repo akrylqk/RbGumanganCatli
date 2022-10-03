@@ -1,8 +1,3 @@
-head {
-     background-image: url("Images/background.jpg");
-     background-size: cover;
-}
-
 body {
      font-family: 'Montserrat', sans-serif; 
      color: #FFFFFF;
@@ -22,8 +17,9 @@ div.t {
 }
 
 div.topnav {
-     background-color: #1E272C;
+     background-color: #000000;
      verflow: hidden;
+     opacity: 0.6; 
 }
 
 div.topnav a {
