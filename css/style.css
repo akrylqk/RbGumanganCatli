@@ -1,6 +1,9 @@
-body {
+head {
      background-image: url("Images/background.jpg");
      background-size: cover;
+}
+
+body {
      font-family: 'Montserrat', sans-serif; 
      color: #FFFFFF;
 }
