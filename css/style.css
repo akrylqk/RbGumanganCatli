@@ -1,3 +1,38 @@
 body {
-     background-image: url("https://imgur.com/a/nVifQKr");
-        }
+     background-image: url("Images/background.jpg");
+     background-size: cover;
+     font-family: 'Montserrat', sans-serif; 
+     color: #FFFFFF;
+}
+
+h1 {
+     text-align: center;
+}
+
+a {
+     color: inherit;
+}
+
+div.t {
+     font-size: 150%;
+}
+
+.topnav {
+     background-color: #1E272C;
+     verflow: hidden;
+}
+
+.topnav a {
+     text-decoration: none;
+     text-align: center;
+     position: relative;
+}
+
+.topnav a:hover::after {
+     content: "";
+     position: absolute;
+     left: 25%;
+     right: 25%;
+     bottom: 0;
+     border: 1px solid white;
+}
