@@ -18,18 +18,18 @@ div.t {
      font-size: 150%;
 }
 
-.topnav {
+div.topnav {
      background-color: #1E272C;
      verflow: hidden;
 }
 
-.topnav a {
+div.topnav a {
      text-decoration: none;
      text-align: center;
      position: relative;
 }
 
-.topnav a:hover::after {
+div.topnav a:hover::after {
      content: "";
      position: absolute;
      left: 25%;
