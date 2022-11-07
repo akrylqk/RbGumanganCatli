@@ -15,8 +15,81 @@
   <style>
 body {
     background-image: url("/RbGumanganCatli/Images/2000sbg.jpg"); background-size: cover;
+  font-family: 'Montserrat', sans-serif; 
+     color: #FFFFFF
 }
-    
+
+h1 {
+     text-align: center;
+     font-family: 'Montserrat', sans-serif; 
+}
+
+a {
+     color: white;
+}
+
+div.t {
+     font-size: 150%;
+}
+
+.topnav {
+     background-color: #000000;
+     verflow: hidden;
+     opacity: 0.6; 
+     text-align: center;
+}
+
+
+}
+
+#margin{
+  margin-left: 25%;
+  margin-right: 25%;}
+
+img{
+      width: 200px;
+      height: 200px;
+  margin-right: 30px;
+      border: 5px solid white;
+    }
+
+
+
+.topnav a {
+     text-decoration: none;
+     padding: 14px 16px;
+     font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #808080;
+  color: black;
+}
+
+.hoveranimation {
+     display: inline-block;
+     position: relative;
+     color: white;
+     
+}
+
+.hoveranimation:after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 4px;
+     bottom: 0;
+     left: 0;
+     background-color: white;
+     transform-origin: bottom center;
+     transition: transform 0.25s ease-out;
+}
+
+.hoveranimation:hover:after {
+     transform: scaleX(1);
+     transform-origin: bottom center;
+}
   </style>
   
 </head>
