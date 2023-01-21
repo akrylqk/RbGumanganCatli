@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head> 
-    
-<meta charset="UTF-8">
-<meta name="author" content="John Russ Nathaneil C. Catli, Miguel Antonio P. Gumangan">
-<meta name="keywords" content="HTML, CSS, JavaScript">
-<meta name="revised" content="22-Sept-2022">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <style>
-        body {background-image: url("Images/background.jpg"); background-size: cover;}
-        h1 {font-size: 400%;}
-    </style>
-    
-    <div class="topnav">
-        <a class="hoveranimation" href="#home">Home</a>
-        <a class="hoveranimation" href="Decades/1980s.html">1980s</a>
-        <a class="hoveranimation" href="Decades/1990s.html">1990s</a>
-        <a class="hoveranimation" href="Decades/2000s.html">2000s</a>
-        <a class="hoveranimation" href="Decades/2010s.html">2010s</a>
-    </div> 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>Music by the Decades</h1>
-        
-      
-        
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="Style/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></script>
 </head>
+
 <body>
+  <header>
+    <!-- Below is the header, showing the title of the webpage as well as the authors' names. -->
+    <div class="main"><div class="mainbackground"></div><div class="header"><div class="headerblock"><h1>Music by the Decades</h1><p>Rb07 Russ Catli, Rb12 Miguel Gumangan</p></div></div>
+  </header>
+  <nav>
+    <!-- The decades, clicking on the images will bring you to their respective pages. -->
+    <div class="decades" style="height: 100px;">
+    <a href="Decades/2010s.html"><img src="Images/2010s.png" height="200px"/></a>
+    <a href="Decades/2000s.html"><img src="Images/2000s.png" height="200px"/></a>
+    <a href="Decades/1990s.html"><img src="Images/1990s.png" height="200px"/></a>
+    <a href="Decades/1980s.html"><img src="Images/1980s.png" height="200px"/></a>
+</div>
+  </nav>
+  <section>
+    <!-- The youtube video that is incorporated into the page. -->
+    <iframe id="video"width="560" height="315" src="https://www.youtube.com/embed/5rzBdM9CnRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <article>
+      <br><br><div class="favorites"><div class="favoriteheader"><h1>Honorable Mentions</h1><p>Our favorite albums that didn't quite make it to the main pages. Separate reviews are linked.</p></div><div class="favoritepics">
+        <!-- The honorable mentions. -->
+  <a href="https://www.albumoftheyear.org/user/jacksonlerner/album/152796-igor/"><img src="Images/igor.jpg" height="200px" title="Tyler, The Creator - IGOR" alt="Tyler, The Creator - IGOR"></a>
+  <a href="https://www.albumoftheyear.org/user/soundworld/album/508-the-college-dropout/"><img src="Images/thecollegedropout.jpg" height="200px" title="Kanye West - The College Dropout" alt="Kanye West - The College Dropout"></a>
+  <a href="https://www.albumoftheyear.org/user/fhhgvnjscvbbg/album/4130-the-low-end-theory/"><img src="Images/lowendtheory.jpg" height="200px" title="A Tribe Called Quest - The Low End Theory" alt="A Tribe Called Quest - The Low End Theory"></a>
+  <a href="https://www.albumoftheyear.org/user/doublez/album/4216-doolittle/"><img src="Images/doolittle.jpg" height="200px" title="Pixies - Doolittle" alt="Pixies - Doolittle"></a>
+</div></div></div>
+    </article>
+  </section>
+
 </body>
+
 </html>
